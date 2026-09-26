@@ -1,0 +1,23 @@
+{
+  "name": "pi-stalled-agent-recovery",
+  "version": "1.0.0",
+  "description": "Pi extension that recovers stalled agent runs: auto-retries empty or thinking-only responses and breaks identical-failing-tool-call loops.",
+  "keywords": ["pi-package", "pi"],
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p pi/tsconfig.json",
+    "test": "node --test test/"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "~0.87.0",
+    "@types/node": "22.19.21",
+    "typescript": "5.9.3"
+  },
+  "pi": {
+    "extensions": ["./pi"]
+  }
+}
