@@ -36,6 +36,12 @@ restarts, so a later identical loop starts fresh.
 ## Install
 
 ```
+pi install npm:pi-stalled-agent-recovery
+```
+
+Or from git:
+
+```
 pi install git:github.com/mitchellnemitz/pi-stalled-agent-recovery
 ```
 

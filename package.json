@@ -1,6 +1,18 @@
 {
   "name": "pi-stalled-agent-recovery",
   "version": "1.0.0",
+  "author": "Mitchell Nemitz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellnemitz/pi-stalled-agent-recovery.git"
+  },
+  "homepage": "https://github.com/mitchellnemitz/pi-stalled-agent-recovery#readme",
+  "bugs": {
+    "url": "https://github.com/mitchellnemitz/pi-stalled-agent-recovery/issues"
+  },
+  "files": [
+    "pi"
+  ],
   "description": "Pi extension that recovers stalled agent runs: auto-retries empty or thinking-only responses and breaks identical-failing-tool-call loops.",
   "keywords": ["pi-package", "pi"],
   "license": "MIT",
